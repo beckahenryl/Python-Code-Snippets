@@ -12,8 +12,6 @@ def leftRotation(a, d):
 		ListToString = ' '.join(str(e) for e in rotateResult)
 		return ListToString	
 
-
-
 if __name__ == '__main__':
 	nd = input().split()
 	n = int(nd[0]) #number of elements
